@@ -1,0 +1,52 @@
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 3rem;
+}
+
+.button {
+  display: inline-block;
+
+  padding: .5rem 1rem;
+  background-color: #245DE5;
+  color: #fff;
+
+  border-radius: 10px;
+  border: none;
+  
+  transition: background-color 0.5s ease-in-out;
+}
+
+.button:hover {
+  background-color: #1A3CB2;
+}
+
+.informations {
+  display: flex;
+  gap: 5rem;
+}
+
+.image {
+  object-fit: fill;
+  object-position: center;
+  transition: transform 0.5s ease-in-out;
+
+  border-radius: 10px;
+}
+
+.image:hover {
+  transform: scale(1.08);
+}
+
+.description h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.description p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
